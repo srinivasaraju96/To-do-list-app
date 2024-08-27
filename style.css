@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right,lightblue,skyblue);
+}
+.to-do-list{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.to-do-list-app{
+    width: 300px;
+    height: 380px;
+    text-align: center;
+    background-color: aliceblue;
+}
+#button{
+    width: 30px;
+}
+.tasklist-class{
+    display: flex;
+    align-items: center;
+    margin: 10px 50px;
+    border: 1px solid grey;
+    color: white;
+    background-color: darkgray;
+}
+.check-class{
+    margin-right: 10px;
+}
+.text-class{
+    text-align: start;
+    flex-grow: 1;
+}
+.button-class{
+    width: 50px;
+}
+.button-class:hover{
+    background-color: rgba(86, 163, 193, 0.887);
+}
